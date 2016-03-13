@@ -67,15 +67,26 @@ top-navigation .content {
   font-weight: lighter;
   font-size: 3.5em;
 	padding-top: 5em;
+	margin-bottom: -0.25em;
+	margin-top: 20px;
 }
+	
 
 .introduction .content h3{
 	font-weight: lighter;
-	font-size: 1.75em;
-	padding-top: -0.5em;
+	font-size: 1.5em;
+	
 }
 
 .button {
-
+  	text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    background-color: #ff3300;
+    width:10em;
+    font-size: 1em;
+    font-weight: 500;
 
 }
