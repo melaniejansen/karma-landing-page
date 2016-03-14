@@ -34,7 +34,7 @@ top-navigation .content {
 
 .logo {
   margin-top: 12px;
-  margin-left: 4em;
+  margin-left: 6em;
 }
 
 .top-navigation .links > .active {
@@ -46,6 +46,8 @@ top-navigation .content {
   cursor: pointer;
   color: #000;
 }
+
+/*Introduction Section*/
 
 .introduction {
   background-image:url(http://thinkful-ed.github.io/karma-clone/img/first-background.jpg);
@@ -74,8 +76,7 @@ top-navigation .content {
 
 .introduction .content h3{
 	font-weight: lighter;
-	font-size: 1.5em;
-	
+	font-size: 1.5em;	
 }
 
 .button {
@@ -88,5 +89,20 @@ top-navigation .content {
     width:10em;
     font-size: 1em;
     font-weight: 500;
+}
 
+/* Icon section */
+
+.icons .content {
+	font-family: Roboto, sans-serif;
+	text-align: center;
+}
+
+.icons .content h1 {
+  font-size: 2.5em;
+  font-weight: lighter;
+}
+
+.devices, .refill, .coffee {
+	padding-right: 4em;
 }
