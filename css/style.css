@@ -11,10 +11,16 @@
 
 /*Navigation Section*/
 
-top-navigation .content {
-  width: 970px;
-  height: 70px;
-  width: 0 auto;
+.top-navigation {
+    background-color: #fff;
+    position:fixed;
+    width: 100%;
+    z-index: 9999;
+}
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
 }
 
 .links > li {
@@ -27,7 +33,6 @@ top-navigation .content {
   font-family: 'Roboto', sans-serif;
   color: #838994;
   font-size: 18px;
-  margin-top: 25px;
   letter-spacing: 0.02em;
   -webkit-font-smoothing: antialiased;
 }
@@ -50,7 +55,7 @@ top-navigation .content {
 /*Introduction Section*/
 
 .introduction {
-  background-image:url(http://thinkful-ed.github.io/karma-clone/img/first-background.jpg);
+  background-image: url(/startup-landing-page-clone/images/first-background.jpg);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -86,23 +91,32 @@ top-navigation .content {
     padding: 1rem 1.5rem;
     color: white;
     background-color: #ff3300;
-    width:10em;
+    width: 10em;
     font-size: 1em;
     font-weight: 500;
 }
 
 /* Icon section */
 
-.icons .content {
+.cases {
 	font-family: Roboto, sans-serif;
 	text-align: center;
 }
 
-.icons .content h1 {
+.cases h2 {
   font-size: 2.5em;
   font-weight: lighter;
+  padding-top: 2em;
 }
 
-.devices, .refill, .coffee {
-	padding-right: 4em;
+.cases .devices > li {
+	display: inline-block;
+	list-style: none;
+  padding: 1em;
+}
+
+.cases .devices h3 {
+  font-size: 22px;
+  font-weight: lighter;
+  letter-spacing: 0.05em;
 }
