@@ -8,7 +8,6 @@
   box-sizing: inherit;
 }
 
-
 /*Navigation Section*/
 
 .top-navigation {
@@ -123,5 +122,39 @@
 
 /*Footer Section */
 
+.social .content  {
+    text-align: center;
+    }
+
 .social .content > hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.5 0;
+    }
+
+.social .content > h5 {
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 500;
+  padding-top: 2em;
+}
+
+.social .icons > li {
+    border-radius: 2em;
+    width: 2em;
+    height: 2em;
+    display: inline-block;
+    margin: 1.25em 5px;
+    border: 1px solid #838994;
+    text-align: center;
+}
+
+.social .content .copy {
+  font-size: 1em;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  color: #838994;
+  margin: 0 auto;
 }
