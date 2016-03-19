@@ -94,6 +94,11 @@
     width: 10em;
     font-size: 1em;
     font-weight: 500;
+    cursor: pointer;
+}
+
+.button:hover {
+  background-color: #e62e00;
 }
 
 /* Icon section */
